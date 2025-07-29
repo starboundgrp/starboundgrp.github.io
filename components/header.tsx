@@ -52,7 +52,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
-            <Image src="/logo.png" alt="Starbound 2024 Logo" width={40} height={40} className="rounded-lg" />
+            <Image src="/logo.jpg" alt="Starbound 2024 Logo" width={40} height={40} className="rounded-lg" />
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">
                 Starbound 2024
@@ -184,7 +184,7 @@ export function Header() {
                           <Input id="password-signup" type="password" />
                         </div>
                         <Button
-                          className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600"
+                          className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white"
                           onClick={handleLogin}
                         >
                           Create Account

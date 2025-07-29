@@ -16,7 +16,7 @@ export default function StarboundHomepage() {
         <div className="container mx-auto text-center">
           <div className="flex justify-center mb-8">
             <Image
-              src="/logo.png"
+              src="/logo.jpg"
               alt="Starbound 2024 Logo"
               width={120}
               height={120}
@@ -163,7 +163,7 @@ export default function StarboundHomepage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <Image src="/logo.png" alt="Starbound 2024 Logo" width={32} height={32} className="rounded-lg" />
+                <Image src="/logo.jpg" alt="Starbound 2024 Logo" width={32} height={32} className="rounded-lg" />
                 <div>
                   <h3 className="font-bold text-lg">Starbound 2024</h3>
                   <p className="text-sm text-yellow-200">Where your editor dreams await</p>
